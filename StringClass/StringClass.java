@@ -1,6 +1,6 @@
 package com.StringClass;
 
-public class StrinngClass {
+public class StringClass {
 
 	public static void main(String[] args) {
 		
