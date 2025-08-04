@@ -22,12 +22,12 @@ public class StreamAPI2 {
 				System.out.println("i found "+values.next() + " at index " + values.previousIndex());
 				break;
 			}
-//			System.out.print(values.previous()+" " );
+			System.out.print(values.previous()+" " );
 			
 		}
 
-		data.forEach(i -> System.out.print(i + " "));
-		// printing a value using method reference (::)
-		data.forEach(System.out::println);
+//		data.forEach(i -> System.out.print(i + " "));
+//		 printing a value using method reference (::);
+//		data.forEach(System.out::println);
 	}
 }

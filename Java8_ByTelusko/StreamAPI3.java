@@ -8,11 +8,11 @@ public class StreamAPI3 {
 		List<Integer> data = Arrays.asList(10, 20, 30, 40, 50);
 
 		// This concept is know as Method reference
-		 data.forEach(System.out::print);
+//		 data.forEach(System.out::print);
 		data.forEach(StreamAPI3::doubleValue);
 	}	
 	public static void doubleValue(int i) {
 		
-		System.out.println(i*2);
+		System.out.print(i*2+" ");
 	}
 }
